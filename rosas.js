@@ -118,3 +118,14 @@ function animate() {
 function render() {
   renderer.render(scene, camera);
 }
+let title = "Para Valeska 😎";
+let speed = 200; 
+let index = 0;
+
+function scrollTitle() {
+    document.title = title.substring(index) + title.substring(0, index);
+    index = (index + 1) % title.length;
+    setTimeout(scrollTitle, speed);
+}
+
+scrollTitle();
