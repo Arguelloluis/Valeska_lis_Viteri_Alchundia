@@ -159,5 +159,25 @@ anime.timeline({ loop: false })
     duration: 2000,
     easing: 'easeOutExpo'
   });
-  
+  // Selecciona el elemento <h1> por su etiqueta
+const title2 = document.querySelector('h1');
+
+// Array de colores para usar en el cambio
+const colors = ['#FF5733', '#33FF57', '#3357FF', '#F333FF', '#FF33A6'];
+
+// Índice inicial del color
+let colorIndex = 0;
+
+// Función para cambiar el color del texto
+function changeColor() {
+    // Cambia el color del texto al siguiente en el array
+    title2.style.color = colors[colorIndex];
+    
+    // Actualiza el índice del color
+    colorIndex = (colorIndex + 1) % colors.length;
+}
+
+// Cambia el color cada 1 segundo (1000 milisegundos)
+setInterval(changeColor, 1000);
+
 
