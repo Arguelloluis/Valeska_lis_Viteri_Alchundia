@@ -28,7 +28,7 @@ p {
   position: fixed;
   bottom: 0;
   margin: 10px;
-  font-size: max(7.4vw, 9px);
+  font-size: max(3.4vw, 9px);
   color: rgba(255, 255, 255, 0.5);
 }
 
