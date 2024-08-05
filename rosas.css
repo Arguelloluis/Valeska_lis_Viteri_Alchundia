@@ -19,7 +19,7 @@ main {
 
 h1 {
   font-family: "Niconne", cursive;
-  font-size: 5vw;
+  font-size: 7vw;
   margin-left: 1rem;
   color: rgba(255, 255, 255, 0.2);
 }
@@ -28,7 +28,7 @@ p {
   position: fixed;
   bottom: 0;
   margin: 10px;
-  font-size: max(2.4vw, 9px);
+  font-size: max(3.4vw, 9px);
   color: rgba(255, 255, 255, 0.5);
 }
 
