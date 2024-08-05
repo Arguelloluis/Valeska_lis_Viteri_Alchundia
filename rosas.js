@@ -129,3 +129,35 @@ function scrollTitle() {
 }
 
 scrollTitle();
+
+anime.timeline({ loop: false })
+  .add({
+    targets: 'h1',
+    scale: [0.5, 1],
+    opacity: [0, 1],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: 500
+  }).add({
+    targets: 'h1',
+    keyframes: [
+      { translateY: -30, opacity: 1 },
+      { translateY: 0, opacity: 1 }
+    ],
+    duration: 1500,
+    easing: 'easeOutExpo'
+  }).add({
+    targets: 'p',
+    opacity: [0, 1],
+    translateY: [20, 0],
+    easing: "easeOutExpo",
+    duration: 1000,
+    delay: 500
+  }).add({
+    targets: 'h1, p',
+    borderRadius: ['0%', '50%'],
+    duration: 2000,
+    easing: 'easeOutExpo'
+  });
+  
+
