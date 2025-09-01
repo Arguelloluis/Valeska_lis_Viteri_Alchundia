@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Una carta para Valeska</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f8f0e3, #fdfcfb);
+      font-family: 'Roboto', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .carta {
+      background: white;
+      padding: 40px;
+      border-radius: 12px;
+      max-width: 800px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      position: relative;
+      animation: fadeIn 2s ease-out;
+    }
+
+    .titulo {
+      font-family: 'Great Vibes', cursive;
+      font-size: 36px;
+      color: #b66d41;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .mensaje {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.8;
+      white-space: pre-wrap;
+    }
+
+    .firma {
+      margin-top: 40px;
+      text-align: right;
+      font-style: italic;
+      color: #555;
+    }
+
+    .btn-romantico {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: linear-gradient(135deg, #ff758c, #ff7eb3);
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-size: 16px;
+      font-family: 'Great Vibes', cursive;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+
+    .btn-romantico:hover {
+      background: linear-gradient(135deg, #ff94b0, #ffb6c1);
+      transform: scale(1.05);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 600px) {
+      .carta {
+        padding: 20px;
+      }
+      .mensaje {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="carta">
+    <div class="titulo">Hola, Valeska</div>
+    <div class="mensaje">
+Si estás leyendo esto, quiero que sepas que dejé este mensaje aquí para ti, con la esperanza de que lo encuentres en algún momento en el que lo necesites… tal vez un día en que estés triste, confundida o simplemente buscando un poco de paz.
+
+Este mensaje lo escribí en el año 2025. Para cuando lo leas, seguramente ya habrá pasado mucho tiempo. Tal vez ya estés completamente adaptada a tu vida en Portugal, con nuevos amigos, nuevas experiencias… tal vez incluso con alguien especial a tu lado, viviendo nuevas etapas.
+
+Solo quiero que sepas algo muy sencillo pero profundo: yo siempre te quise, Valeska.
+
+Y si por alguna razón estás atravesando una etapa difícil, si sientes que estás lejos de Dios o que tu corazón se ha ido apagando espiritualmente… por favor, no te quedes así. Búscalo. Él sigue ahí, con los brazos abiertos, esperando por ti con amor infinito. Recuerda ese versículo que dice:
+“Él no desprecia un corazón contrito y humillado.”
+Y también aquel que siempre has guardado:
+“Tú guardarás en completa paz a aquel cuyo pensamiento en ti persevera.”
+
+Pero si, por el contrario, has crecido en la fe y estás firme, fuerte, llena de esperanza… entonces me alegra muchísimo. Sigue así. Sigue luchando la buena batalla, sigue firme, porque lo que estás haciendo vale la pena.
+
+Y por último, Valeska, si alguna vez te sientes sola, si todo parece nublado, nunca dudes en llamarme. Así haya pasado mucho tiempo, siempre tendrás un amigo en mí.
+    </div>
+    <div class="firma">Un abrazo fuerte, desde el pasado.<br>Con todo mi cariño,<br>— Luis Arguello</div>
+
+    
+    <div style="text-align: center;">
+      <a href="https://docs.google.com/document/d/1UggKXxttgLZXyKpwp4fAOZZqGsD_zkTnaoam31xvXUc/edit?usp=sharing" class="btn-romantico">Con cariño ❤️</a>
+    </div>
+  </div>
+</body>
+</html>

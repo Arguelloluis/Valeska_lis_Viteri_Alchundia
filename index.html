@@ -1,34 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Valeska</title>
-    <link rel="stylesheet" href="rosas.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4QYR2J36ZN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4QYR2J36ZN');
+</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Para Valeska</title>
+  <link rel="stylesheet" href="rosas.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  
 </head>
+
 <body>
-    <main>
-        <h1>Para Valeska</h1>
-        <p>"Tú guardarás en completa paz a aquel cuyo pensamiento en ti persevera; porque en ti ha confiado" Isaías 26:3</p>
-    </main>
-    <div id="filter"></div>
-    <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.3/dist/es-module-shims.js" crossorigin="anonymous"></script>
-    <script type="importmap">
-        {
-          "imports": {      
-            "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
-            "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
-          }
-        }
-    </script>
-    <script src="rosas.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-   
+
+
+  <button
+    class="btn-romantico"
+    id="btnRomantico"
+    aria-label="Ir a la página de Valeska"
+    title="Con cariño ❤️">
+    Aplástame <i class="fas fa-heart"></i>
+  </button>
+
+  <main>
+    <h1>Para Valeska</h1>
+    <p>"Tú guardarás en completa paz a aquel cuyo pensamiento en ti persevera; porque en ti ha confiado" Isaías 26:3</p>
+  </main>
+
+  <div id="filter"></div>
+
+  <script>
+    
+    document.getElementById('btnRomantico').addEventListener('click', function () {
+      window.location.href = 'carta.html';
+    });
+  </script>
+
+  <script async src="https://ga.jspm.io/npm:es-module-shims@1.6.3/dist/es-module-shims.js" crossorigin="anonymous"></script>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.150.1/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.150.1/examples/jsm/"
+      }
+    }
+  </script>
+  <script src="rosas.js" type="module"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </body>
 </html>
-
-
-
-
